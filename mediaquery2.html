@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            margin: 50px 0;
+            text-align: center;
+        }
+        .parent{
+            height:300px;
+            width: 100;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+         }
+
+        .daughter{
+            width:50%;
+            padding:0;
+            text-align: center;
+        }
+        .daughter img{
+            width:500px;
+        }
+        .daughter a{
+            text-align: center;
+        }
+        .son{
+            width: 50%;
+            padding: 0 5%;
+            box-sizing: border-box;
+            text-align: justify;
+            line-height: 2;
+            
+        }
+        @media(max-width:768px){
+            h1{
+                color: darkgreen;
+            }
+            .parent{
+                display: block;
+            }
+            .daughter{
+                 width:100%;
+        }
+
+        .son{
+            width: 100%;
+            
+        }
+        .daughter img{
+            height: auto;
+            width:100%
+            
+        }
+
+        @media(max-width: 468px){
+            .daughter img{
+                padding:10%;
+                box-sizing: border-box;
+            }
+        }
+        }
+
+
+    </style>
+</head>
+<h1>HELLO TRIP</h1>
+<br>
+<body>
+    <div class="parent">
+    <br>
+
+    <div class="son">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis illo sed perspiciatis voluptatibus molestias corrupti, consequuntur esse culpa cumque, quaerat iure ab numquam pariatur recusandae ipsa neque nulla reprehenderit rem! Illum porro omnis, similique nostrum sunt delectus impedit laudantium itaque, eius cum consequuntur quis amet tempore soluta minima, in provident dignissimos esse illo sapiente. Voluptatem, unde veritatis! Rerum, possimus.</p>
+    
+</div>
+</div>
+<div class="daughter">
+    <a href="#">
+    <img src="m.jpg" alt="mountain image">
+</a>
+</div>
+</body>
+</html>

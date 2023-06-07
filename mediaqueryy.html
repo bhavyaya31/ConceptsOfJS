@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: darkorange;
+            text-align: center;
+            font-size: large;
+            display: none;
+            font-family: 'Courier New', Courier, monospace;
+            color:brown
+            
+        }
+        @media(max-width:300px){
+            #box1{
+                background-color: gold;
+                display:block
+               
+            }
+        }
+        @media only screen and (min-width:300px) and (max-width:500px){
+            #box2{
+            display:block;
+            background-color:darkslateblue;
+        }
+    }
+        @media(min-width:500px) and (max-width:800px){
+            #box3{
+            display:block;
+            background-color:darksalmon;
+        }
+    }
+        @media(min-width:800px){
+            #box4{
+            display:block;
+            background-color:mediumvioletred;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">phobnejfnek</div>    
+    <div id="box2" class="box">dnnedjfnek</div>    
+    <div id="box3" class="box">efhbjefejfnek</div>    
+    <div id="box4" class="box">ndfnejfnek</div>    
+
+</body>
+</html>
